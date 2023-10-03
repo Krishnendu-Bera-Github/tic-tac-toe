@@ -1,0 +1,17 @@
+.square {
+  width: 130px;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #ffffff;
+  font-size: 3rem;
+}
+
+.square-X {
+  color: red;
+}
+
+.square-O {
+  color: rgb(255, 196, 0);
+}

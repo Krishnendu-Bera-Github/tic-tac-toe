@@ -1,0 +1,52 @@
+.container {
+  height: 80vh;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h2 {
+  margin-top: 50px;
+  color: rgb(195, 195, 195);
+}
+
+.container h3 {
+  color: green;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+}
+
+.reset-winner {
+  width: 300px;
+}
+
+button {
+  width: 100%;
+  margin-top: 5px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: black;
+  background: orange;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  margin-top: 5px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: rgb(37, 37, 37);
+  background: rgb(246, 173, 36);
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
